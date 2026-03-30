@@ -49,7 +49,7 @@ align-items:center;
 padding:30px; 
 } 
 .banner-text{ 
-background:rgba(0,0,0,0.4); 
+background:rgba(248, 244, 244, 0.4); 
 padding:20px; 
 border-radius:10px; 
 } 
@@ -100,7 +100,7 @@ color:#ccc;
 .join{ 
 margin:40px; 
 padding:30px; 
-background:linear-gradient(90deg,#4c1d95,#7e22ce); 
+background:linear-gradient(90deg,#4f3871,#2c1344); 
 border-radius:15px; 
 display:flex; 
 justify-content:space-between; 
@@ -120,7 +120,7 @@ margin-bottom:20px;
 padding:10px 20px; 
 border:none; 
 border-radius:8px; 
-background:#4ad6ff; 
+background:#f9fafa; 
 cursor:pointer; 
 font-weight:bold; 
 } 
