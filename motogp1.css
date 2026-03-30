@@ -1,0 +1,145 @@
+/* RESET */ 
+*{ 
+margin:0; 
+padding:0; 
+box-sizing:border-box; 
+font-family:Arial, Helvetica, sans-serif; 
+} 
+/* BODY */ 
+body{ 
+background:#ecebee; 
+color:rgb(11, 8, 8); 
+} 
+/* NAVBAR */ 
+header{ 
+background:#f7f7f9; 
+padding:15px 40px; 
+} 
+.navbar{ 
+display:flex; 
+justify-content:space-between; 
+align-items:center; 
+} 
+.logo-area{ 
+display:flex; 
+align-items:center; 
+gap:10px; 
+} 
+.logo{ 
+width:40px; 
+} 
+.logo-area h1{ 
+color:#eef2f3; 
+font-size:24px; 
+} 
+.nav-menu a{ 
+color:white; 
+text-decoration:none; 
+margin-left:20px; 
+font-size:14px; 
+} 
+/* BANNER */ 
+.banner{ 
+margin:20px 40px; 
+height:230px; 
+border-radius:15px; 
+background:url("images/banner.jpg") center/cover no-repeat; 
+display:flex; 
+align-items:center; 
+padding:30px; 
+} 
+.banner-text{ 
+background:rgba(0,0,0,0.4); 
+padding:20px; 
+border-radius:10px; 
+} 
+.banner-text h2{ 
+font-size:30px; 
+} 
+.banner-text p{ 
+margin-top:10px; 
+} 
+/* MOVIE SECTION */ 
+.movie-section{ 
+padding:20px 40px; 
+} 
+.movie-section h2{ 
+margin-bottom:15px; 
+} 
+/* MOVIES GRID */ 
+.movies{ 
+display:grid; 
+grid-template-columns: repeat(auto-fill, minmax(160px,1fr)); 
+gap:20px; 
+} 
+/* CARD */ 
+.card{ 
+background:#f8f7f8; 
+border-radius:12px; 
+overflow:hidden; 
+transition:0.3s; 
+} 
+.card:hover{ 
+transform:scale(1.05); 
+} 
+.card img{ 
+width:100%; 
+height:230px; 
+object-fit:cover; 
+} 
+.card h3{ 
+font-size:14px; 
+padding:10px 10px 0 10px; 
+} 
+.card p{ 
+font-size:12px; 
+padding:0 10px 10px 10px; 
+color:#ccc; 
+} 
+/* JOIN SECTION */ 
+.join{ 
+margin:40px; 
+padding:30px; 
+background:linear-gradient(90deg,#4c1d95,#7e22ce); 
+border-radius:15px; 
+display:flex; 
+justify-content:space-between; 
+gap:40px; 
+} 
+.join-left{ 
+width:50%; 
+} 
+.join-left h2{ 
+font-size:28px; 
+margin-bottom:10px; 
+} 
+.join-left p{ 
+margin-bottom:20px; 
+} 
+.join-left button{ 
+padding:10px 20px; 
+border:none; 
+border-radius:8px; 
+background:#4ad6ff; 
+cursor:pointer; 
+font-weight:bold; 
+} 
+.join-right ul{ 
+list-style:disc; 
+padding-left:20px; 
+} 
+/* FOOTER */ 
+footer{ 
+background:#05020e; 
+text-align:center; 
+padding:20px; 
+margin-top:30px; 
+} 
+.logo-bottom{ 
+width:120px; 
+margin-bottom:10px; 
+} 
+footer p{ 
+font-size:14px; 
+color:#ccc; 
+}
