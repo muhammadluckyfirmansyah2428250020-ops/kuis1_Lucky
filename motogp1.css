@@ -83,7 +83,7 @@ transition:0.3s;
 transform:scale(1.05); 
 } 
 .card img{ 
-width:100%; 
+width:25%; 
 height:230px; 
 object-fit:cover; 
 } 
